@@ -6,7 +6,7 @@ using Vysvedceni.Data;
 
 namespace Vysvedceni.Services
 {
-    public class Service
+    public class DataService
     {
         public List<Subject> Subjects { get; set; } = new List<Subject>
         {

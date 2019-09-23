@@ -28,3 +28,4 @@ C:\Users\domsefr017\Desktop\Nová složka\Vysvedceni\Vysvedceni\obj\Debug\netcor
 C:\Users\domsefr017\Desktop\Nová složka\Vysvedceni\Vysvedceni\obj\Debug\netcoreapp2.2\Vysvedceni.dll
 C:\Users\domsefr017\Desktop\Nová složka\Vysvedceni\Vysvedceni\obj\Debug\netcoreapp2.2\Vysvedceni.pdb
 C:\Users\domsefr017\Desktop\Nová složka\Vysvedceni\Vysvedceni\obj\Debug\netcoreapp2.2\Vysvedceni.csproj.CopyComplete
+C:\Users\domsefr017\Desktop\Nová složka\Vysvedceni\Vysvedceni\obj\Debug\netcoreapp2.2\Razor\Pages\Create.g.cshtml.cs

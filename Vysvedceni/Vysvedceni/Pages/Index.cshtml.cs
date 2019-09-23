@@ -11,16 +11,20 @@ namespace Vysvedceni.Pages
 {
     public class IndexModel : PageModel
     {
-        public Service _service { get; set; }
-        private ViewModel VM;
-        public IndexModel(Service Service)
+        public DataService _service { get; set; }
+        public ViewModel VM;
+        public IndexModel(DataService service)
         {
-            Service = _service;
+            _service = service;
+            VM = new ViewModel();
         }
         public void OnGet()
         {
-
+            VM.Collection = _service.Grades;
         }
-        class ViewModel : Grade { }
+        public class ViewModel
+        {
+            public List<Grade> Collection { get; set; } = new List<Grade>();
+        }
     }
 }

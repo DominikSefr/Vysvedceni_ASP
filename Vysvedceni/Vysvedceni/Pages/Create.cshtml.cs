@@ -10,8 +10,8 @@ namespace Vysvedceni.Pages
 {
     public class CreateModel : PageModel
     {
-        private Service _service;
-        public CreateModel(Service service)
+        private DataService _service;
+        public CreateModel(DataService service)
         {
             service = _service;
         }

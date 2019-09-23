@@ -32,7 +32,7 @@ namespace Vysvedceni
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddSingleton<Service>();
+            services.AddSingleton<DataService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

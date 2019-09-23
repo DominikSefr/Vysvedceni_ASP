@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,16 +8,16 @@ namespace Vysvedceni.Data
 {
     public class Grade
     {
+        [Key]
         public int Id { get; set; }
+        [Required]
+        [Display(Name="Hodnota")]
         public int Value { get; set; }
-        public string Subject { get; set; }
+        [Required]
+        [Display(Name="Váha")]
         public int Weight { get; set; }
-        public Grade(int id, int value, string subject, int weight)
-        {
-            id = Id;
-            value = Value;
-            subject = Subject;
-            weight = Weight;
-        }
+        [Required]
+        [Display(Name="Předmět")]
+        public Subject Subject { get; set; }
     }
 }
