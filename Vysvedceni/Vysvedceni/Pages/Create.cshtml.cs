@@ -4,23 +4,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Vysvedceni.Data;
 using Vysvedceni.Services;
 
 namespace Vysvedceni.Pages
 {
-    public class IndexModel : PageModel
+    public class CreateModel : PageModel
     {
-        public Service _service { get; set; }
-        private ViewModel VM;
-        public IndexModel(Service Service)
+        private Service _service;
+        public CreateModel(Service service)
         {
-            Service = _service;
+            service = _service;
         }
         public void OnGet()
         {
 
         }
-        class ViewModel : Grade { }
     }
 }

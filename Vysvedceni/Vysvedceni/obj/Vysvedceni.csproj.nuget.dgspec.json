@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domsefr017\\source\\repos\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj": {}
+    "C:\\Users\\domsefr017\\Desktop\\Nová složka\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domsefr017\\source\\repos\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj": {
+    "C:\\Users\\domsefr017\\Desktop\\Nová složka\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domsefr017\\source\\repos\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj",
+        "projectUniqueName": "C:\\Users\\domsefr017\\Desktop\\Nová složka\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj",
         "projectName": "Vysvedceni",
-        "projectPath": "C:\\Users\\domsefr017\\source\\repos\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj",
+        "projectPath": "C:\\Users\\domsefr017\\Desktop\\Nová složka\\Vysvedceni\\Vysvedceni\\Vysvedceni.csproj",
         "packagesPath": "C:\\Users\\domsefr017\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domsefr017\\source\\repos\\Vysvedceni\\Vysvedceni\\obj\\",
+        "outputPath": "C:\\Users\\domsefr017\\Desktop\\Nová složka\\Vysvedceni\\Vysvedceni\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [
